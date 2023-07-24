@@ -1,0 +1,57 @@
+In this video we will get data from API's and display on web page.
+
+we will see: 1. fetch() 2. axios 3. XHR
+
+First we will see `Fetch()`
+Here i'm using Reactjs v.18 and bootstrap v.5.0
+
+Step 1:
+in function.js file i will create a function and inside the function i will write
+fetch().
+Now import it in App.js/App.jsx [whereever you want to fetch data from API import `FetchDataUsingFetchMethod()` in that file.]
+Step 2:
+For API i will use json placeholder which is fake API to get some fake data.
+Now let's head to browser.
+Step 3:
+Display data in table.
+store data from API into state.
+Now displaying multiple data.
+
+    async/await (sorry i forgot about it.)
+    let see it.
+
+Step 4:
+We have seen GET.
+now we will perform PUT, POST, and DELETE.
+
+    I have made little changes in fetch function in `function.js``
+    let POST something.
+    create A button to post data on click.
+    Now let test it.
+    out data is posted with id `101`
+    let try to fetch our data.
+    now let test it.
+    Ok, i think it's not updating on server.
+
+Now, nest let see PUT method
+Next is DELETE method.
+
+HERE WE HAVE COMPLETED FETCH METHOD we have covered basic fetch methods.
+
+In this video we have seen
+fetch() method and data binding.
+
+In this video we will see XHR [XmlHttpRequest]
+
+Step 1:
+create function for XHR in fucntion.js.
+GET, POST, DELETE.
+
+    Great we have seen XHR.
+    Note: XHR is old technic to fetch data with api from server.
+    nowdays molstly we use fetch or axios
+
+    In next video we will see AXIOS.
+
+Pleae share and subscribe to Bugslogger.
+code will be available on github.
